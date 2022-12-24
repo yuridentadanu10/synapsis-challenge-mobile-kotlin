@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
+import com.synapsis.challengeandroid.R
 import com.synapsis.challengeandroid.core.data.synapsis.local.sharedpref.UserSession
 import com.synapsis.challengeandroid.core.domain.model.UserModel
 import com.synapsis.challengeandroid.databinding.ActivityRegisterBinding
@@ -40,6 +41,7 @@ class RegisterActivity : AppCompatActivity() {
             binding.btnRegister.visibility = View.GONE
             binding.btnLogin.visibility = View.VISIBLE
             binding.etConfirmPassword.visibility = View.GONE
+            binding.toolbar.title = "Login"
         } else {
             binding.btnRegister.visibility = View.VISIBLE
             binding.btnLogin.visibility = View.GONE

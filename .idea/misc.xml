@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/drawable/bg_search_view.xml" value="0.113" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/drawable/ic_favorite_border.xml" value="0.113" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/drawable/ic_favorite_menu.xml" value="0.113" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/layout/activity_detail.xml" value="0.18" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/layout/activity_list.xml" value="0.21041666666666667" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/layout/activity_search.xml" value="0.21041666666666667" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/layout/cast_layout_shimmer.xml" value="0.21041666666666667" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/layout/main_layout_shimmer.xml" value="0.209375" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/layout/movie_layout_shimmer.xml" value="0.209375" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/app/src/main/res/menu/main_menu.xml" value="0.21041666666666667" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/core/src/main/res/drawable/img.xml" value="0.1245" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/core/src/main/res/font/nunito_sans.xml" value="0.1140625" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/core/src/main/res/layout/item_card_horizontal.xml" value="0.22" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/core/src/main/res/layout/item_cast.xml" value="0.25" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/core/src/main/res/layout/item_list_favorite_movie.xml" value="0.22" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/core/src/main/res/layout/item_movie_horizontal.xml" value="0.33" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/favorite/src/main/res/layout/activity_favorite.xml" value="0.21041666666666667" />
+        <entry key="..\:/Project/AndroidStudio/Bangkit/made-course/favorite/src/main/res/layout/item_list_favorite_movie.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

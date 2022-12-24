@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearlayourPageA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".presentation.sensor.SensorActivity">
+
+            <TextView
+                android:id="@+id/tvDateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:text="@string/text_date" />
+
+            <TextView
+                android:id="@+id/tvBattery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:text="@string/text_battery" />
+
+            <TextView
+                android:id="@+id/tvAccelerometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:text="@string/text_accelerometer" />
+
+            <TextView
+                android:id="@+id/tvGyro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:text="@string/text_gyro" />
+
+            <TextView
+                android:id="@+id/tvMagneto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:text="@string/text_gyro" />
+
+            <TextView
+                android:id="@+id/tvGPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:text="@string/text_gps" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayourPageB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accelerometer Graph (Scale value +5)" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lineChartAccelero"
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="@dimen/dimen_8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gyroscope Graph (Scale value +10)" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lineChartGyro"
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="@dimen/dimen_8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Magnetometer Graph (Scale value +10)" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lineChartMagneto"
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="@dimen/dimen_8dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

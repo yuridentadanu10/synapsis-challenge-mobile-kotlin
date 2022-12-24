@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Synapsis App</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="text_time">time %s</string>
+    <string name="text_date">Date and Time: %s</string>
+    <string name="text_battery">Battery Level: %d</string>
+    <string name="text_accelerometer">Accelerometer Sensor: %s</string>
+    <string name="text_gyro">Gyroscope Sensor: %s</string>
+    <string name="text_magnetic">Magnetometere Sensor: %s</string>
+    <string name="text_gps">GPS Coordinate: %s</string>
+    <string name="text_login">Login / Register</string>
+    <string name="text_input_name">Input Username</string>
+    <string name="text_input_password">Input Password</string>
+    <string name="text_input_confirmpassword">Input Confirm Password</string>
+    <string name="text_logout">Logout</string>
+</resources>

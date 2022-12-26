@@ -17,16 +17,6 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
 
-    // Flexbox
-    implementation 'com.google.android.flexbox:flexbox:3.0.0'
-
-    // Glide
-    implementation 'com.github.bumptech.glide:glide:4.13.1'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.1'
-
-    // Shimmer Loading
-    implementation 'com.facebook.shimmer:shimmer:0.5.0'
-
     // Circle Image
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 

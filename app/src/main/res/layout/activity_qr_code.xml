@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.datasoc.QrCodeActivity">
+    tools:context="com.synapsis.datasoc.presentation.datasoc.QrCodeActivity">
 
     <ImageView
         android:id="@+id/imgQRCode"

@@ -1,4 +1,4 @@
-package com.synapsis.challengeandroid.presentation.datasoc
+package com.synapsis.datasoc.presentation.datasoc
 
 import android.content.Context
 import android.content.Intent
@@ -11,7 +11,9 @@ import com.synapsis.challengeandroid.core.data.synapsis.local.sharedpref.UserSes
 import com.synapsis.challengeandroid.core.domain.model.DataSoc
 import com.synapsis.challengeandroid.core.utils.getCurrentDateAndTimeString
 import com.synapsis.challengeandroid.databinding.ActivityDataSocBinding
+import com.synapsis.datasoc.di.DataSocModule
 import org.koin.androidx.viewmodel.ext.android.viewModel
+import org.koin.core.context.loadKoinModules
 
 class DataSocActivity : AppCompatActivity() {
 
@@ -24,6 +26,7 @@ class DataSocActivity : AppCompatActivity() {
 
         _activityBinding = ActivityDataSocBinding.inflate(layoutInflater)
         setContentView(_activityBinding.root)
+        loadKoinModules(DataSocModule)
 
         initObserver()
         initView()

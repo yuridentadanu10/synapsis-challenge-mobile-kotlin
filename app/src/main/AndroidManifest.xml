@@ -59,12 +59,6 @@
             android:name=".presentation.camera.CameraActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.datasoc.QrCodeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.datasoc.DataSocActivity"
-            android:exported="false" />
-        <activity
             android:name=".presentation.sensor.SensorActivity"
             android:exported="false" />
         <activity

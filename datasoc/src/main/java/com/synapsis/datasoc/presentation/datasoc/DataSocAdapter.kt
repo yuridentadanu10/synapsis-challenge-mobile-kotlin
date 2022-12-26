@@ -1,4 +1,4 @@
-package com.synapsis.challengeandroid.presentation.datasoc
+package com.synapsis.datasoc.presentation.datasoc
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

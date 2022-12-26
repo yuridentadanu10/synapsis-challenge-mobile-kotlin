@@ -1,4 +1,4 @@
-package com.synapsis.challengeandroid.presentation.datasoc
+package com.synapsis.datasoc.presentation.datasoc
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

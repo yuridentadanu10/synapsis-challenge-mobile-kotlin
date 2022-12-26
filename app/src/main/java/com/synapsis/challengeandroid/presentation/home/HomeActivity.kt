@@ -8,7 +8,6 @@ import com.synapsis.challengeandroid.R
 import com.synapsis.challengeandroid.core.data.synapsis.local.sharedpref.UserSession
 import com.synapsis.challengeandroid.databinding.ActivityHomeBinding
 import com.synapsis.challengeandroid.presentation.camera.CameraActivity
-import com.synapsis.challengeandroid.presentation.datasoc.DataSocActivity
 import com.synapsis.challengeandroid.presentation.loginregister.UserLogoutActivity
 import com.synapsis.challengeandroid.presentation.sensor.SensorActivity
 import com.synapsis.challengeandroid.utils.BundleKeys
@@ -30,12 +29,16 @@ class HomeActivity : AppCompatActivity() {
                 SensorActivity.startActivity(this@HomeActivity, BundleKeys.PAGE_A)
             }
             cvHalamanB.setOnClickListener {
-                DataSocActivity.startActivity(this@HomeActivity)
+                val datasocIntent = Intent(
+                    this@HomeActivity,
+                    Class.forName("com.synapsis.datasoc.presentation.datasoc.DataSocActivity")
+                )
+                startActivity(datasocIntent)
             }
             cvHalamanC.setOnClickListener {
                 SensorActivity.startActivity(this@HomeActivity, BundleKeys.PAGE_C)
             }
-            rvProfileUser.setOnClickListener{
+            rvProfileUser.setOnClickListener {
                 UserLogoutActivity.startActivity(this@HomeActivity)
             }
             cvHalamanBonus.setOnClickListener {

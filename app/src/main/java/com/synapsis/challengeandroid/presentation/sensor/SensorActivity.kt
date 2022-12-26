@@ -34,9 +34,8 @@ import com.synapsis.challengeandroid.R
 import com.synapsis.challengeandroid.core.utils.getCurrentDateTime
 import com.synapsis.challengeandroid.core.utils.toStringDate
 import com.synapsis.challengeandroid.databinding.ActivitySensorBinding
-import com.synapsis.challengeandroid.presentation.datasoc.QrCodeActivity
 import com.synapsis.challengeandroid.utils.BundleKeys
-import java.util.*
+
 
 
 class SensorActivity : AppCompatActivity(), SensorEventListener {

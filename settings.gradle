@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Synapsis App"
 include ':app'
 include ':core'
+include ':datasoc'

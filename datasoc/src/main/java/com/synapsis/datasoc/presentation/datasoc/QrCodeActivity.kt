@@ -1,4 +1,4 @@
-package com.synapsis.challengeandroid.presentation.datasoc
+package com.synapsis.datasoc.presentation.datasoc
 
 import android.content.Context
 import android.content.Intent
